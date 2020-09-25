@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-size: 16px; // 1 rem
+  font-family: "Helvetica Light", sans-serif, serif;
+  color: $white;
 }
 
 body,
@@ -11,4 +13,10 @@ html {
   height: auto;
   min-height: 100vh;
   scroll-behavior: smooth;
+}
+
+#wrap-wrap {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
 }
