@@ -200,7 +200,7 @@ html {
   text-transform: capitalize;
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
-  line-height: 1;
+  line-height: 2rem;
 }
 
 #wrap-wrap .main-content_sub--title h2 span {
@@ -211,9 +211,27 @@ html {
   font-style: italic;
 }
 
+#wrap-wrap .main-content_sub--title h2 span.bonfiest {
+  font-weight: bold;
+  text-shadow: 0.033rem 0.033rem 0px #232c61;
+  -webkit-filter: drop-shadow(1px 2px 0px #232c61);
+          filter: drop-shadow(1px 2px 0px #232c61);
+}
+
+#wrap-wrap .main-content_sub--title h2 span.plus {
+  font-weight: bold;
+  text-shadow: -0.033rem -0.033rem 0 #fff;
+  -webkit-filter: drop-shadow(1px 2px 0px #232c61);
+          filter: drop-shadow(1px 2px 0px #232c61);
+}
+
 #wrap-wrap .main-content_sub--title h2 span:nth-child(1) {
   line-height: 1.2;
   color: #fff;
+}
+
+#wrap-wrap .main-content_sub--title h2 span:nth-child(1) sup {
+  font-size: 1vw;
 }
 
 @media only screen and (max-width: 813px) {

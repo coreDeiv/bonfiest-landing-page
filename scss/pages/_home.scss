@@ -126,7 +126,7 @@
           letter-spacing: 2px;
           text-transform: capitalize;
           transform: scale(1, 1);
-          line-height: 1;
+          line-height: 2rem;
           span {
             color: $danger;
             font: {
@@ -135,9 +135,22 @@
               family: "Helvetica";
               style: italic;
             }
+            &.bonfiest {
+              font-weight: bold;
+              text-shadow: 0.033rem 0.033rem 0px $navy;
+              filter: drop-shadow(1px 2px 0px $navy);
+            }
+            &.plus {
+              font-weight: bold;
+              text-shadow: -0.033rem -0.033rem 0 $white;
+              filter: drop-shadow(1px 2px 0px $navy);
+            }
             &:nth-child(1) {
               line-height: 1.2;
               color: $white;
+              sup {
+                font-size: 1vw;
+              }
             }
             @include mq(phone-xxl, max) {
               font-size: 4vw;
