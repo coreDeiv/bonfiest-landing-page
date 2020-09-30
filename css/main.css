@@ -1,7 +1,7 @@
 /* Colors */
 /* Fuente */
 /* Maps */
-#wrap-wrap .main-content_upper--title h3, #wrap-wrap .main-content_normal--title h1, #wrap-wrap .main-content_sub--title h2 {
+#wrap-wrap .main-content_upper--title h3, #wrap-wrap .main-content_normal--title h1 {
   text-transform: uppercase;
   letter-spacing: -1px;
   -webkit-transform: scale(1, 1.5);
@@ -194,55 +194,16 @@ html {
   }
 }
 
-#wrap-wrap .main-content_sub--title h2 {
-  color: #fff;
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  line-height: 2rem;
-}
-
-#wrap-wrap .main-content_sub--title h2 span {
-  color: #b22348;
-  font-size: 3.2vw;
-  font-weight: bold;
-  font-family: "Helvetica";
-  font-style: italic;
-}
-
-#wrap-wrap .main-content_sub--title h2 span.bonfiest {
-  font-weight: bold;
-  text-shadow: 0.033rem 0.033rem 0px #232c61;
-  -webkit-filter: drop-shadow(1px 2px 0px #232c61);
-          filter: drop-shadow(1px 2px 0px #232c61);
-}
-
-#wrap-wrap .main-content_sub--title h2 span.plus {
-  font-weight: bold;
-  text-shadow: -0.033rem -0.033rem 0 #fff;
-  -webkit-filter: drop-shadow(1px 2px 0px #232c61);
-          filter: drop-shadow(1px 2px 0px #232c61);
-}
-
-#wrap-wrap .main-content_sub--title h2 span:nth-child(1) {
-  line-height: 1.2;
-  color: #fff;
-}
-
-#wrap-wrap .main-content_sub--title h2 span:nth-child(1) sup {
-  font-size: 1vw;
-}
-
-@media only screen and (max-width: 813px) {
-  #wrap-wrap .main-content_sub--title h2 span {
-    font-size: 4vw;
-  }
+#wrap-wrap .main-content_sub--title .bfp-logo {
+  width: 25%;
+  margin-top: 1rem;
+  pointer-events: none;
 }
 
 @media only screen and (max-width: 640px) {
-  #wrap-wrap .main-content_sub--title h2 span {
-    font-size: 5.5vw;
+  #wrap-wrap .main-content_sub--title .bfp-logo {
+    width: 50%;
+    margin-top: .5rem;
   }
 }
 
